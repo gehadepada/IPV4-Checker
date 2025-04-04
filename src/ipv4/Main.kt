@@ -1,6 +1,6 @@
 package ipv4
 
-fun isValidIPv4(ipv4: String): Boolean {
+fun CheckValidIPv4(ipv4: String): Boolean {
     var seg = ""
     var numOfDots = 0
     var numOfSegments = 0
